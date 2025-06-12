@@ -48,12 +48,33 @@
     margin-bottom: 25px;
   }
   
+  .word-type {
+    color: #5a5a5a;
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    font-family: 'Lora', serif;
+  }
+  
   .definition {
     font-family: 'Lora', serif;
     font-size: 1.4rem;
     line-height: 1.6;
     max-width: 800px;
     color: #34495e;
+  }
+  
+  .synonyms {
+    font-family: 'Lora', serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #7f8c8d;
+    margin-top: 20px;
+    max-width: 800px;
+  }
+
+  .synonyms span {
+    font-weight: 700;
   }
   
   .bookmark-icon {
@@ -209,5 +230,38 @@
   #example-phrase-bar.visible {
       opacity: 1;
       transform: translateY(0);
+  }
+  
+  #tab-switcher {
+    position: fixed;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1020; /* Higher than example-phrase-bar */
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.07);
+  }
+
+  #tab-switcher button {
+      border: none;
+      background: transparent;
+      padding: 8px 20px;
+      cursor: pointer;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #7f8c8d;
+      border-radius: 15px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  #tab-switcher button.active {
+      background-color: #34495e;
+      color: white;
   }
   
