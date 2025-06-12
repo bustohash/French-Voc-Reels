@@ -58,7 +58,7 @@
   
   .bookmark-icon {
     position: absolute;
-    top: 30px;
+    top: 70px;
     right: 40px;
     width: 32px;
     height: 32px;
@@ -158,5 +158,56 @@
   .bookmark-icon svg, #bookmark-widget svg {
     width: 100%;
     height: 100%;
+  }
+  
+  #random-word-widget {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    width: 48px;
+    height: 48px;
+    color: #34495e;
+    cursor: pointer;
+    z-index: 1000;
+    transition: transform 0.2s ease;
+  }
+  
+  #random-word-widget:hover {
+    transform: scale(1.1);
+  }
+  
+  #random-word-widget svg {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #example-phrase-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px 25px;
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 1010; /* Higher than other elements */
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #34495e;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    opacity: 0;
+    transform: translateY(-100%);
+    min-height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #example-phrase-bar.visible {
+      opacity: 1;
+      transform: translateY(0);
   }
   
