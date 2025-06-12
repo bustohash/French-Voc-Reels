@@ -195,7 +195,7 @@ document.addEventListener('DOMContentLoaded', () => {
       { mot: "Mutuel", type: "adjectif", def: "Réciproque, qui se fait d'un côté et de l'autre.", trad: "Mutual", phrase: "Le respect mutuel est la base de leur amitié.", syn: ["réciproque", "partagé"] },
       { mot: "Atermoyer", type: "verbe", def: "Remettre à plus tard en tergiversant ou en trouvant des excuses ; différer une décision.", trad: "To procrastinate / To stall", phrase: "Il ne faut pas atermoyer face à une décision importante.", syn: ["différer", "retarder", "hésiter"] },
       { mot: "Tergiverser", type: "verbe", def: "Éviter de répondre ou d'agir de façon directe en multipliant les détours ou les excuses.", trad: "To stall / To equivocate", phrase: "Il passe son temps à tergiverser au lieu de prendre une décision.", syn: ["hésiter", "éluder", "temporiser"] },
-      { mot: "Fuck you bitch", type: "insulte", def: "fuck you.", trad: "baise toi", phrase: "Le fuck you mutuel est la base de leur amitié.", syn: ["réciproque", "fuck you too"] }
+      { mot: "Fuck you bitch", type: "insulte", def: "fuck you.", trad: "baise toi", phrase: "Le fuck you mutuel est la base de leur amitié.", syn: ["réciproque", "fuck you too"] },
     ];
 
     const phrases = [
