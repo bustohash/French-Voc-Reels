@@ -193,6 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {
       { mot: "Prudent", type: "adjectif", def: "Qui fait attention pour éviter les dangers ou les erreurs.", trad: "Cautious / Prudent", phrase: "Soyez prudent en traversant la route.", syn: ["circonspect", "avisé"] },
       { mot: "Élémentaire", type: "adjectif", def: "De base, simple, fondamental.", trad: "Elementary", phrase: "C'est une règle de politesse élémentaire.", syn: ["basique", "simple"] },
       { mot: "Mutuel", type: "adjectif", def: "Réciproque, qui se fait d'un côté et de l'autre.", trad: "Mutual", phrase: "Le respect mutuel est la base de leur amitié.", syn: ["réciproque", "partagé"] },
+        { "mot": "Atermoyer", "type": "verbe", "def": "Remettre à plus tard en tergiversant ou en trouvant des excuses ; différer une décision.", "trad": "To procrastinate / To stall", "phrase": "Il ne faut pas atermoyer face à une décision importante.", "syn": ["différer", "retarder", "hésiter"] }
       { mot: "fuck you bitch", type: "fuck youf", def: "fuck you.", trad: "Mutual", phrase: "Le fuck you mutuel est la base de leur amitié.", syn: ["réciproque", "partagé"] },
     ];
 
