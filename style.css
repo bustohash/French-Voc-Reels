@@ -234,34 +234,39 @@
   
   #tab-switcher {
     position: fixed;
-    bottom: 15px;
+    bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 1020; /* Higher than example-phrase-bar */
-    background-color: rgba(255, 255, 255, 0.85);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    border-radius: 20px;
-    padding: 5px;
+    z-index: 1020;
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 25px;
+    padding: 4px;
     display: flex;
-    box-shadow: 0 -2px 8px rgba(0,0,0,0.07);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   }
 
   #tab-switcher button {
       border: none;
       background: transparent;
-      padding: 8px 20px;
+      padding: 8px 16px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #34495e;
       cursor: pointer;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 1rem;
-      font-weight: 600;
-      color: #7f8c8d;
-      border-radius: 15px;
-      transition: background-color 0.3s ease, color 0.3s ease;
+      transition: color 0.3s ease, background-color 0.3s ease;
+      border-radius: 20px;
+      font-family: 'Lora', serif;
   }
 
   #tab-switcher button.active {
+      color: #ffffff;
       background-color: #34495e;
-      color: white;
+  }
+  
+  #main-content {
+    height: 100vh;
+    overflow: auto;
   }
   
